@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+div#alignder{
+    align-items: center;
+}
+
+div#iconoargprogram{
+    background-color: blue;
+    
+           
+}
+.hashtag{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: double;
+    margin-top: 50 px;
+    
+}
+div#yoprogramo{
+    margin-top: 43px;
+    align-items: left;
+}
