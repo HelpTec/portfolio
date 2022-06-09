@@ -1,25 +1,29 @@
 /*padding(retirado) y color de fondo*/
 .header {
     overflow: hidden;
-    background-color: blue;
+    background-color: white;
   }
   
   /* estilo, padding tamaño y ubicación de los links del header */
   .header a {
     float: left;
-    color: white;
+    color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 30px;
     border-radius: 4px;
   }
-  
+  /*margen superior para los links derechos*/
+  #derecha{
+    margin-top: 10px;
+  }
   /* estilo del logo link, tamaño y peso (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    
   }
   
   /* cambia el color de fondo cuando un mouse pasa encima */
@@ -30,8 +34,8 @@
   
   /* estilo de un link con boton activo*/
   .header a.active {
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    color: black;
   }
   
   /* dejar la sección de links a la derecha */
@@ -49,4 +53,10 @@
     .header-right {
       float: none;
     }
+  }
+  .hashtag{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: double;
+    margin-top: 13px;
   }
