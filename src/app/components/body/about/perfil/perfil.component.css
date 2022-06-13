@@ -1,0 +1,15 @@
+img{
+    position: absolute;
+    top: 320px;
+    border-radius: 150px 150px 150px 150px;
+    height: 150px;
+    width: 150px;
+}
+
+@media screen and (max-width: 530px) {
+    img{
+        position: absolute;
+        top:320px; 
+        left: 180px;
+    }
+}

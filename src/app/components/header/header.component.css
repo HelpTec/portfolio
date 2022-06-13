@@ -10,9 +10,8 @@
     color: black;
     text-align: center;
     padding: 12px;
-    text-decoration: none;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
     border-radius: 4px;
   }
   /*margen superior para los links derechos*/
@@ -24,6 +23,11 @@
     font-size: 25px;
     font-weight: bold;
     
+  }
+  /*iconos*/
+  .iconos {
+    height:30px;
+    width:30px;
   }
   
   /* cambia el color de fondo cuando un mouse pasa encima */
@@ -43,20 +47,31 @@
     float: right;
   }
   
-  /* efecto responsive para pantallas de 500px o menos, los links se ponen uno arriba de otro*/
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
+  /*formato del hastag*/
   .hashtag{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
+    font-family: Impact;
+    font-size: 30px;
     font-weight: double;
     margin-top: 13px;
+  }
+  .masarriba{
+    margin-bottom: 0;     
+  }
+/* efecto responsive para pantallas de 795px o menos, los links se ponen uno arriba de otro*/
+   @media screen and (max-width: 795px) {
+     .header a {
+       padding: 0px;
+       font-size: 15px;
+     }
+     .header-right {
+       padding: 0px;
+     }
+     .iconoarg{
+      height: 37px;
+      width: 100px;
+     }
+     .iconos{
+      height:20px;
+      width:20px;
+     }
   }
