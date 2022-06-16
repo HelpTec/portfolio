@@ -2,10 +2,19 @@ img {
     position: absolute;
     height: 300px;
     width: 100%;
+    max-width: 1370px;
     top: 75px;
     bottom: 350px;
-    left:5px;
-    right:5px;
+    padding-left:10%;
+    padding-right:10%;
+    
 }
 
-
+@media screen and (max-width: 530px) {
+    img {
+        padding-left:0;
+        padding-right:0;
+        right: 0px;
+        left: 0px;
+    }
+}

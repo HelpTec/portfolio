@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./perfil.component.css']
 })
 export class PerfilComponent implements OnInit {
+  nombre:string="Diego Nahuel Amezaga";
+  titulo:string="(Programador FullStack)"
 
   constructor() { }
 

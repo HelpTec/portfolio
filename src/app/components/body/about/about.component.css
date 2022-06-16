@@ -1,0 +1,28 @@
+.perfil{
+    position: absolute;
+    top: 340px;
+    left: 10%;
+}
+
+.about{
+    position: absolute;
+    top: 510px;
+    left: 10%;
+    right: 10%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 530px) {
+    .perfil{
+        position: absolute;
+        top:270px; 
+        left: 180px;
+    }
+    .about{
+        position: absolute;
+        top: 520px; 
+        left: 5%;
+        right: 0;
+        text-align: center;
+    }
+}

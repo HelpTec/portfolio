@@ -1,15 +1,34 @@
-img{
+/*formato para el nombre de perfil*/
+.nombreperfil{
     position: absolute;
-    top: 320px;
+    left: 160px;
+    font-family: impact;
+    font-size: 25px;
+    top: 50px;
+}
+.titulo{
+    position: relative;
+    left: 260px;
+    font-family: impact;
+    font-size: 15px;
+    top: -13px;
+}
+/*formato para la foto de perfil*/
+img{
     border-radius: 150px 150px 150px 150px;
     height: 150px;
     width: 150px;
 }
-
+/*media query para el responsive del nombre de perfil*/
 @media screen and (max-width: 530px) {
-    img{
+    .nombreperfil{
         position: absolute;
-        top:320px; 
-        left: 180px;
+        top: 150px;
+        left: 0px;
+        text-align: center
+    }
+    .titulo{
+        left:0;
+        top: 70px;
     }
 }

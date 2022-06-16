@@ -57,7 +57,7 @@
   .masarriba{
     margin-bottom: 0;     
   }
-/* efecto responsive para pantallas de 795px o menos, los links se ponen uno arriba de otro*/
+/* efecto responsive para pantallas de 795px o menos, el header se achica y los espacios se reducen*/
    @media screen and (max-width: 795px) {
      .header a {
        padding: 0px;
