@@ -1,17 +1,17 @@
 /*formato para el nombre de perfil*/
 .nombreperfil{
-    position: absolute;
+    position: relative;
     left: 160px;
     font-family: impact;
     font-size: 25px;
-    top: 50px;
+    top: -110px;
 }
 .titulo{
     position: relative;
-    left: 260px;
-    font-family: impact;
-    font-size: 15px;
-    top: -13px;
+    left: 160px;
+    font-family: Arial;
+    font-size: 19px;
+    top: -130px;
 }
 /*formato para la foto de perfil*/
 img{
@@ -22,13 +22,15 @@ img{
 /*media query para el responsive del nombre de perfil*/
 @media screen and (max-width: 530px) {
     .nombreperfil{
-        position: absolute;
-        top: 150px;
-        left: 0px;
+        position: relative;
+        top: 0px;
+        left: -35px;
         text-align: center
     }
     .titulo{
-        left:0;
-        top: 70px;
+        position: absolute;
+        right: 30px;
+        left: -30px;
+        top: 180px;
     }
 }

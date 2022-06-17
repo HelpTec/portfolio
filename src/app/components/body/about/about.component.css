@@ -1,14 +1,14 @@
 .perfil{
     position: absolute;
     top: 340px;
-    left: 10%;
+    left: 20%;
 }
 
 .about{
     position: absolute;
     top: 510px;
-    left: 10%;
-    right: 10%;
+    left: 20%;
+    right: 20%;
     text-align: justify;
 }
 
