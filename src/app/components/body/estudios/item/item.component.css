@@ -1,0 +1,8 @@
+.Tarjeta{
+    background-color: lightseagreen;
+    
+}
+.Tarjeta h3{
+    display:flex;
+    justify-content: space-between;
+}

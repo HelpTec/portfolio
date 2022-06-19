@@ -1,0 +1,62 @@
+{
+    "experiencias":[
+        {
+            "id": 1,
+            "nombre": "",
+            "periodo": "",
+            "cargo": "",
+            "descripcion": ""
+        },
+        {
+            "id": 2,
+            "nombre": "",
+            "periodo": "",
+            "cargo": "",
+            "descripcion": ""
+        },
+        {
+            "id": 3,
+            "nombre": "",
+            "periodo": "",
+            "cargo": "",
+            "descripcion": ""
+        }
+    ],
+    "estudios":[
+        {
+            "id": 11,
+            "titulo": "",
+            "periodo": "",
+            "descripcion": ""
+        },
+        {
+            "id": 12,
+            "titulo": "",
+            "periodo": "",
+            "descripcion": ""
+        },
+        {
+            "id": 13,
+            "titulo": "",
+            "periodo": "",
+            "descripcion": ""
+        }
+    ],
+    "skills":[
+        {
+            "id": 21,
+            "nombre": "",
+            "nivel": 0            
+        },
+        {
+            "id": 22,
+            "nombre": "",
+            "nivel": 0            
+        },
+        {
+            "id": 23,
+            "nombre": "",
+            "nivel": 0            
+        }
+    ]
+}

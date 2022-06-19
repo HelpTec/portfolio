@@ -1,1 +1,5 @@
-<app-experiencias-item></app-experiencias-item>
+<app-experiencias-item
+    *ngFor="let Experiencia of Experiencias" 
+    [experiencia]="Experiencia"
+    >
+</app-experiencias-item>

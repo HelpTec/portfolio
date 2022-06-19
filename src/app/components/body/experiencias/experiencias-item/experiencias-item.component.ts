@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import {EXPERIENCIAS} from '../../../../mock-items';
+import {experiencia} from '../../../../EXPERIENCIAS';
 
 @Component({
   selector: 'app-experiencias-item',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienciasItemComponent implements OnInit {
 
+  @Input() experiencia: experiencia = EXPERIENCIAS[0]
   constructor() { }
 
   ngOnInit(): void {
