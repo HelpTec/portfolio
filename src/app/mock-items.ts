@@ -1,6 +1,6 @@
 import {experiencia} from './EXPERIENCIAS'
 import {estudio} from './ESTUDIOS'
-import {Skill} from './SKILLS'
+import {skill} from './SKILLS'
 
 export const EXPERIENCIAS: experiencia[] = [
     {
@@ -31,10 +31,25 @@ export const ESTUDIOS: estudio [] = [
         descripcion: "Estudio Curso ARGENTINA PROGRAMA"
     }
 ]
-export const SKILLS: Skill [] = [
+export const SKILLS: skill [] = [
     {
         id: 1,
-        nombre: "",
-        nivel: 0
+        nombre: "Java",
+        nivel: 1
+    },
+    {
+        id: 2,
+        nombre: "Python",
+        nivel: 2
+    },
+    {
+        id: 3,
+        nombre: "Angular",
+        nivel: 3
+    },
+    {
+        id: 4,
+        nombre: "SQL",
+        nivel: 5
     }
 ]

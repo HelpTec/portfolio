@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SKILLS} from '../../../mock-items';
-import {Skill} from '../../../SKILLS';
+import {skill} from '../../../SKILLS';
 
 @Component({
   selector: 'app-skills',
@@ -9,6 +9,8 @@ import {Skill} from '../../../SKILLS';
 })
 export class SkillsComponent implements OnInit {
 
+  Skills: skill[] = SKILLS;
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,4 +1,4 @@
-.estudios{
+.experiencia{
     position: absolute;
     padding-top: 550px;
     padding-left:10%;
@@ -6,9 +6,18 @@
     width: 100%;
     left:10%
 }
-.experiencia{
+.estudios{
     position: absolute;
-    padding-top: 1000px;
+    padding-top: 750px;
+    padding-left:10%;
+    padding-right:30%;
+    width: 100%;
+    left:10%;
+    box-sizing: border-box
+}
+.skills{
+    position: absolute;
+    top: 1300px;
     padding-left:10%;
     padding-right:30%;
     width: 100%;

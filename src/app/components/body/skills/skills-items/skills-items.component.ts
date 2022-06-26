@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import {SKILLS} from '../../../../mock-items';
+import {skill} from '../../../../SKILLS';
 
 @Component({
   selector: 'app-skills-items',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills-items.component.css']
 })
 export class SkillsItemsComponent implements OnInit {
+  
+  @Input() skill: skill = SKILLS[0]
 
   constructor() { }
 
