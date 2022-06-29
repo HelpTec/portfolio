@@ -1,1 +1,5 @@
-<app-proyectos-item></app-proyectos-item>
+<app-proyectos-item
+    *ngFor="let Proyecto of Proyectos" 
+    [proyecto]="Proyecto"
+    >
+</app-proyectos-item>

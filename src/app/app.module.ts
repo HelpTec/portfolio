@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LoginComponent } from './components/login/login.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { RedesComponent } from './components/redes/redes.component';
 import { BodyComponent } from './components/body/body/body.component';
 import { SkillsComponent } from './components/body/skills/skills.component';
 import { SkillsItemsComponent } from './components/body/skills/skills-items/skills-items.component';
@@ -19,7 +18,7 @@ import { PerfilComponent } from './components/body/about/perfil/perfil.component
 import { InfoaboutComponent } from './components/body/about/infoabout/infoabout.component';
 import { ProyectosComponent } from './components/body/proyectos/proyectos.component';
 import { ProyectosItemComponent } from './components/body/proyects/proyectos-item/proyectos-item.component';
-import { RedesItemComponent } from './components/redes/redes-item/redes-item.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +26,6 @@ import { RedesItemComponent } from './components/redes/redes-item/redes-item.com
     HeaderComponent,
     LoginComponent,
     BannerComponent,
-    RedesComponent,
     BodyComponent,
     SkillsComponent,
     SkillsItemsComponent,
@@ -40,7 +38,7 @@ import { RedesItemComponent } from './components/redes/redes-item/redes-item.com
     InfoaboutComponent,
     ProyectosComponent,
     ProyectosItemComponent,
-    RedesItemComponent
+    
   ],
   imports: [
     BrowserModule,

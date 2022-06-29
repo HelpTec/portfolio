@@ -1,6 +1,7 @@
 import {experiencia} from './EXPERIENCIAS'
 import {estudio} from './ESTUDIOS'
 import {skill} from './SKILLS'
+import {proyecto} from './PROYECTOS'
 
 export const EXPERIENCIAS: experiencia[] = [
     {
@@ -52,4 +53,19 @@ export const SKILLS: skill [] = [
         nombre: "SQL",
         nivel: 5
     }
+]
+export const PROYECTOS:proyecto [] = [
+    {
+        id: 1,
+        nombre: 'tasklist',
+        enlace: 'enlace.com',
+        imagen: 'imagen.com'
+    },
+    {
+        id: 2,
+        nombre: 'api',
+        enlace: 'enlace.com',
+        imagen: 'imagen.com'
+        },
+
 ]
