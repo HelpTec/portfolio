@@ -1,3 +1,9 @@
 .ubicador{
-    position: relative;
+    float: left;
+    height: 300px;
+    width: 40%;
+    margin-bottom: 10px;
+    
+    
+    
 }

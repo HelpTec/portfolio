@@ -6,24 +6,24 @@ import {proyecto} from './PROYECTOS'
 export const EXPERIENCIAS: experiencia[] = [
     {
         id: 1,
-        empresa: "CelularPork",
+        empresa: "Trabajo1",
         periodo: "05/09/2016 - Actualidad",
-        cargo: "Vendedor",
+        cargo: "Puesto1",
         descripcion: "Venta al publico"
     },
 ]
 export const ESTUDIOS: estudio [] = [
     {
         id: 1,
-        titulo: "Maestro Mayor De Obras",
+        titulo: "Estudio1",
         periodo: "01/03/2004 - 11/11/2007",
-        descripcion: "Secundario Con Orientacion a MMO"
+        descripcion: "Estudio con orientacion estudio"
     },
     {
         id: 2,
-        titulo: "Vendedor",
+        titulo: "Estudio2",
         periodo: "01/05/2009-01/06/2009",
-        descripcion: "Estudio De Tecnica De Ventas PICCADDERO"
+        descripcion: "Estudio2 con orientacion estudio2"
     }
     ,{
         id: 3,
@@ -35,22 +35,22 @@ export const ESTUDIOS: estudio [] = [
 export const SKILLS: skill [] = [
     {
         id: 1,
-        nombre: "Java",
+        nombre: "Skill1",
         nivel: 1
     },
     {
         id: 2,
-        nombre: "Python",
+        nombre: "Skill2",
         nivel: 2
     },
     {
         id: 3,
-        nombre: "Angular",
+        nombre: "Skill3",
         nivel: 3
     },
     {
         id: 4,
-        nombre: "SQL",
+        nombre: "Skill4",
         nivel: 5
     }
 ]
@@ -64,6 +64,12 @@ export const PROYECTOS:proyecto [] = [
     {
         id: 2,
         nombre: 'api',
+        enlace: 'enlace.com',
+        imagen: 'imagen.com'
+        },
+    {
+        id: 3,
+        nombre: 'api2',
         enlace: 'enlace.com',
         imagen: 'imagen.com'
         },

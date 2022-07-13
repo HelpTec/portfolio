@@ -18,6 +18,8 @@ img{
     border-radius: 150px 150px 150px 150px;
     height: 150px;
     width: 150px;
+    border: 3px ridge;
+    box-shadow: 2px 2px 2px 2px lightgrey;
 }
 /*media query para el responsive del nombre de perfil*/
 @media screen and (max-width: 530px) {

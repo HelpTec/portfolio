@@ -1,20 +1,19 @@
 img {
-    position: absolute;
-    height: 300px;
+    position: block;
+    height: auto;
+    max-height: 300px;
     width: 100%;
-    max-width: 1370px;
-    top: 75px;
-    bottom: 350px;
-    padding-left:18%;
-    padding-right:18%;
+    max-width: 800px;
+    bottom: 450px;
+    margin-left:20%;
+    margin-right:20%;
+    border-style: 2px inset;
+    box-shadow: 3px 3px 3px 3px;
     
 }
 
 @media screen and (max-width: 530px) {
     img {
-        padding-left:0;
-        padding-right:0;
-        right: 0px;
-        left: 0px;
+        margin-left:1%;
     }
 }

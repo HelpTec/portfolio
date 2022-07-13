@@ -1,6 +1,6 @@
 .Tarjeta{
-    background-color: lightseagreen;
     
+    border-style: 2 px inset;
 }
 .Tarjeta h3{
     display:flex;

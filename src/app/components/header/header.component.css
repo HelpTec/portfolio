@@ -2,6 +2,8 @@
 .header {
     overflow: hidden;
     background-color: white;
+    box-shadow: 3px 3px 3px 3px;
+    margin-bottom: 10px;
   }
   
   /* estilo, padding tamaño y ubicación de los links del header */
@@ -17,6 +19,7 @@
   /*margen superior para los links derechos*/
   #derecha{
     margin-top: 10px;
+    
   }
   /* estilo del logo link, tamaño y peso (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header a.logo {
@@ -28,6 +31,8 @@
   .iconos {
     height:30px;
     width:30px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 120px 120px 120px 120px;
   }
   
   /* cambia el color de fondo cuando un mouse pasa encima */
@@ -53,6 +58,7 @@
     font-size: 30px;
     font-weight: double;
     margin-top: 13px;
+    
   }
   .masarriba{
     margin-bottom: 0;     
